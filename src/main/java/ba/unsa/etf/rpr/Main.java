@@ -1,13 +1,18 @@
 package ba.unsa.etf.rpr;
 
-/**
- * Hello world!
- *
- */
+import java.util.Scanner;
 public class Main
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+            System.out.println("Unesite prvi broj: ");
+            Scanner unos = new Scanner(System.in);
+            int broj = unos.nextInt();
+            System.out.println(broj);
+            System.out.println("Unesite drugi broj: ");
+            broj= unos.nextInt();
+            System.out.println(broj);
+
     }
 }
